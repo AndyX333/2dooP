@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página principal</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+
+        body {
+            background-color: #fff5cf;
+            color: #49382f;
+        }
+
+        header {
+            background-color: #254caa;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 30px;
+        }
+
+        .portada {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+        }
+
+        .portada img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 35px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #254caa;
+            margin-bottom: 25px;
+        }
+
+        .enlaces {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .enlaces a {
+            text-align: center;
+            text-decoration: none;
+            color: #49382f;
+            padding: 25px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            border: 3px solid white;
+            transition: 0.3s;
+        }
+
+        .enlaces a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 12px #0002;
+        }
+
+        .rojo { background: #ffaaa0; }
+        .azul { background: #a5c8ff; }
+        .amarillo { background: #ffe58a; }
+        .verde { background: #b4e5a0; }
+        .morado { background: #d5b6f4; }
+        .rosa { background: #ffc4d6; }
+
+        footer {
+            background-color: #254caa;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 650px) {
+            .enlaces {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 400px) {
+            .enlaces {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>TRABAJOS SEGUNDO PARCIAL :33 </h1>
+        
+    </header>
+
+    <section class="portada">
+        <img src="casita.jpg" alt="Mi mundo de colores">
+    </section>
+
+    <main>
+
+        <h2>✦ Índice de actividades ✦</h2>
+
+        <section class="enlaces">
+
+            <a href="operaciones.html" class="rojo">
+                Operaciones básicas
+            </a>
+
+            <a href="datos.html" class="azul">
+                Datos personales
+            </a>
+
+             <a href="confi.html" class="azul">
+                Confirmar Datos if/else
+            </a>
+
+            <a href="calificaciones.html" class="amarillo">
+                Calificaciones
+            </a>
+
+            <a href="votar.html" class="verde">
+                Programa para votar
+            </a>
+
+            <a href="promedio.html" class="morado">
+                Cálculo de promedio
+            </a>
+
+            <a href="zodiacal.html" class="rosa">
+                Signo zodiacal
+            </a>
+
+            <a href="operaciones_switch.html" class="azul">
+                Operaciones SWITCH
+            </a>
+
+            <a href="dom.html" class="amarillo">
+                Métodos del DOM
+            </a>
+
+            <a href="ciclos_for.html" class="rojo">
+                Ciclos FOR
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>ENTREGADOS A TIEMPOOOOOO!!!</p>
+    </footer>
+<a href="index.html">Regresar a Index</a>
+</body>
+</html>

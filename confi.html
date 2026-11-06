@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Datos personales</title>
+     <link rel="stylesheet" href="disenio.css">
+</head>
+<body>
+    <script>
+        let continuar = confirm("¿Deseas ingresar tus datos?");
+        let nombre = prompt("Ingresa tu nombre");
+        let edad = Number(prompt("Ingresa tu edad"));
+        let especialidad = prompt("Ingresa tu especialidad");
+        let correo = prompt("Ingresa tu correo");
+
+        if (continuar) {
+            document.write("Bienvenido/a " + nombre + "<br>");
+            document.write("Tienes " + edad + " años<br>");
+            document.write("Tu especialidad es: " + especialidad + "<br>");
+            document.write("Tu correo es: " + correo);
+        } else {
+            alert("¡Flojonazo!");
+        }
+    </script>
+    
+    <a href="index.html">Regresar a Index</a>
+</body>
+</html>

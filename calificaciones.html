@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calificaciones</title>
+     <link rel="stylesheet" href="disenio.css">
+</head>
+<body>
+    <script>
+        let continuar = confirm("¿Deseas ingresar tu calificación?");
+        let calificacion = Number(prompt("Ingresa tu calificación"));
+
+        if (continuar) {
+            if (calificacion >= 6) {
+                document.write("Aprobaste");
+            } else {
+                document.write("Reprobaste");
+            }
+        }
+    </script>
+     <a href="index.html">Regresar a Index</a>
+</body>
+</html>

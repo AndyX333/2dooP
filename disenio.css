@@ -1,0 +1,156 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f0fa;
+    color: #393044;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+/* ENCABEZADOS */
+
+header {
+    background: linear-gradient(135deg, #c9a7eb, #f2c9df);
+    color: #ffffff;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px #c9b5d5;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #986cbd;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #b17cae;
+    margin-bottom: 10px;
+}
+
+/* CONTENEDORES */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+section, article {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    box-shadow: 0 3px 12px #dfd3e8;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* HIPERVÍNCULOS */
+
+a {
+    color: #986cbd;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #df8eb9;
+    text-decoration: underline;
+}
+
+/* LISTAS */
+
+ul, ol {
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* IMÁGENES */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 15px auto;
+}
+
+/* TABLAS */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+}
+
+th {
+    background: #c9a7eb;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #eadff0;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #faf5fc;
+}
+
+/* CÓDIGO */
+
+pre, code {
+    background: #f1eaf7;
+    color: #79549b;
+    padding: 12px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* BOTÓN */
+
+button {
+    background: #b994d8;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #d995bd;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #987eaa;
+    margin-top: 30px;
+}
